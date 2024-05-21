@@ -1,0 +1,326 @@
+.namfa_details_container {
+    width: 100%;
+    font-size: 1.2rem;
+    text-align: left;
+         font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.namfa_details_container_withoutbold {
+    width: 100%;
+    font-size: 1.2rem;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-root-container {
+    margin-left: 5%;
+}
+
+.address-logo {
+    height: 200px;
+    width: 200px;
+    margin-left: 45%;
+    margin-right: 45%;
+    border: 1px solid black;
+    background-color: azure;
+}
+
+
+.language_switch {
+    float: right;
+    margin-right: 7%;
+    margin-top: 12px;
+}
+
+@media screen and (max-width: 575px) {
+    .about-root-container {
+        width: 91%;
+        margin-top: 10vh;
+        background: #ffffff;
+    }
+
+    .aboutus_img {
+        width: 99%;
+        height: 30vh;
+        margin-left: 10%;
+    }
+
+
+
+    .pointcard_container {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .point-card {
+        background: #F4FCD9;
+        height: 80px;
+        border-radius: 10px;
+        justify-content: center;
+        display: flex;
+        width: 30%;
+        box-shadow: 3px 3px 3px #9E9E9E;
+    }
+
+    .point_card_description {
+        width: 100%;
+        font-size: 1.2rem;
+        text-align: justify;
+        padding-right: 15px;
+    }
+
+    .point_sub_container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 10px;
+    }
+
+    .point-card p {
+        font-weight: 900;
+        font-size: .6rem;
+        color: #000;
+        align-self: center;
+        text-align: center;
+    }
+
+    .point-card:hover {
+        transform: scale(1.1);
+    }
+    .address-logo {
+        
+        margin-left: 0%;
+        margin-right: 0%;
+        
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .about-root-container {
+        width: 90%;
+        margin-top: 10vh;
+        background: #ffffff;
+    }
+
+    .aboutus_img {
+        width: 90%;
+        height: 30vh;
+        margin-left: 10%;
+    }
+
+    .pointcard_container {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .point-card {
+        background: #F4FCD9;
+        height: 80px;
+        border-radius: 10px;
+        justify-content: center;
+        display: flex;
+        width: 30%;
+        box-shadow: 3px 3px 3px #9E9E9E;
+    }
+
+    .point_card_description {
+        width: 100%;
+        font-size: 1.2rem;
+        text-align: justify;
+        padding-right: 15px;
+    }
+
+    .point_sub_container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 10px;
+    }
+
+    .point-card p {
+        font-weight: 900;
+        font-size: .8rem;
+        color: #000;
+        align-self: center;
+        text-align: center;
+    }
+
+    .point-card:hover {
+        transform: scale(1.1);
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .about-root-container {
+        width: 90%;
+        margin-top: 10vh;
+        background: #ffffff;
+    }
+
+    .aboutus_img {
+        width: 80%;
+        height: 35vh;
+        margin-left: 10%;
+    }
+
+
+    .pointcard_container {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .point-card {
+        background: #F4FCD9;
+        height: 80px;
+        border-radius: 10px;
+        justify-content: center;
+        display: flex;
+        width: 30%;
+        box-shadow: 3px 3px 3px #9E9E9E;
+    }
+
+    .point_card_description {
+        width: 100%;
+        font-size: 1.2rem;
+        text-align: justify;
+        padding-right: 15px;
+    }
+
+    .point_sub_container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 10px;
+    }
+
+    .point-card p {
+        font-weight: 900;
+        font-size: 1.1rem;
+        color: #000;
+        align-self: center;
+        text-align: center;
+    }
+
+    .point-card:hover {
+        transform: scale(1.1);
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+    .about-root-container {
+        width: 90%;
+        margin-top: 10vh;
+        background: #ffffff;
+    }
+
+    .aboutus_img {
+        width: 90%;
+        height: 40vh;
+        margin-left: 10%;
+    }
+
+
+    .pointcard_container {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .point-card {
+        background: #F4FCD9;
+        height: 80px;
+        border-radius: 10px;
+        justify-content: center;
+        display: flex;
+        width: 30%;
+        box-shadow: 3px 3px 3px #9E9E9E;
+    }
+
+    .point_card_description {
+        width: 100%;
+        font-size: 1.2rem;
+        text-align: justify;
+        padding-right: 15px;
+    }
+
+    .point_sub_container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 10px;
+    }
+
+    .point-card p {
+        font-weight: 900;
+        font-size: larger;
+        color: #000;
+        align-self: center;
+        text-align: center;
+    }
+
+    .point-card:hover {
+        transform: scale(1.1);
+    }
+
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    .about-root-container {
+        width: 90%;
+        margin-top: 10vh;
+        background: #ffffff;
+    }
+
+    .aboutus_img {
+        width: 70%;
+        height: 40vh;
+        margin-left: 10%;
+    }
+
+
+
+    .pointcard_container {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .point-card {
+        background: #F4FCD9;
+        height: 80px;
+        border-radius: 10px;
+        justify-content: center;
+        display: flex;
+        width: 30%;
+        box-shadow: 3px 3px 3px #9E9E9E;
+    }
+
+    .point_card_description {
+        width: 100%;
+        font-size: 1.2rem;
+        text-align: justify;
+    }
+
+    .point_sub_container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 10px;
+    }
+
+    .point-card p {
+        font-weight: 900;
+        font-size: larger;
+        color: #000;
+        align-self: center;
+        text-align: center;
+    }
+
+    .point-card:hover {
+        transform: scale(1.1);
+    }
+
+}

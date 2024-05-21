@@ -1,0 +1,247 @@
+.products_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2vw;
+  margin-top: 6vw;
+}
+.section_header {
+  width: 74%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 30vh;
+  background-color: rgb(243, 225, 243);
+  padding: 2vw;
+}
+.section_header h1 {
+  background: linear-gradient(
+    to right,
+    #690177 20%,
+    #4e056d 40%,
+    #b741c2 60%,
+    #b40cc4 80%
+  );
+  background-size: 200% auto;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+  height: 3vw;
+}
+.section_header p {
+  font-size: 1.4rem;
+  font-weight: 300;
+  text-align: center;
+  line-height: 30px;
+}
+
+.product_section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 60%;
+  flex-direction: column;
+}
+.product_group button {
+  border: none;
+  background: none;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 700;
+  color: #000;
+  text-decoration: none;
+  position: relative;
+  padding: 5px 0px;
+  border: none;
+  width: 4vw;
+  cursor: pointer;
+}
+.hr {
+  width: 100%;
+  border: 0.01vw solid #690177;
+}
+.product_group button:hover {
+  color: #690177;
+}
+.active_button_product {
+  color: #690177 !important;
+  border-bottom: 1px solid #690177 !important;
+}
+.product_list {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-top: 1vw;
+}
+.product_list .card {
+  width: 88%;
+}
+.web_buton {
+  width: 50px;
+  line-height: 19px;
+  font-weight: 400;
+  color: #000;
+  border: 1px solid #c8c8c8;
+  border-radius: 15px;
+  padding-top: 0px;
+  text-align: center;
+  padding: 3px;
+  cursor: default;
+}
+.Mobile_buton {
+  max-width: 100px;
+  width: auto;
+  line-height: 19px;
+  font-weight: 400;
+  color: #000;
+  border: 1px solid #c8c8c8;
+  border-radius: 15px;
+  padding-top: 0px;
+  text-align: center;
+  padding: 4px;
+  cursor: default;
+}
+.web_and_app_button {
+  display: flex;
+  column-gap: 1vw;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (max-width: 399px) {
+  .products_container {
+    width: 103%;
+  }
+  .product_section {
+    width: 90%;
+  }
+  .section_header {
+    width: 91%;
+    margin-top: 50px;
+    height: auto;
+    
+  }
+  .section_header h1 {
+    font-size: 30px;
+    height: auto;
+  }
+  .product_list {
+    grid-template-columns: auto;
+  }
+  .product_group button {
+    width: 15vw;
+  }
+  .product_list .card {
+    width: 100%;
+  }
+  .card {
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .section_header p {
+    
+    text-align: left;
+   
+}
+}
+
+@media screen and (min-width: 400px) and (max-width: 575px) {
+  .products_container {
+    width: 100%;
+  }
+  .product_section {
+    width: 90%;
+  }
+  .section_header {
+    width: 90%;
+    margin-top: 50px;
+    height: auto;
+  }
+  .section_header h1 {
+    font-size: 30px;
+    height: auto;
+  }
+  .product_list {
+    grid-template-columns: auto;
+  }
+  .product_group button {
+    width: 15vw;
+  }
+  .product_list .card {
+    width: 100%;
+  }
+  .card {
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+  .section_header{
+    height: auto;
+    margin-top: 50px;
+    width: 90%;
+  }
+  .section_header h1 {
+    height: auto;
+  }
+  .section_header p {
+    font-size: 2.4rem;
+    font-weight: 300;
+    text-align: left;
+    line-height: 50px;
+}
+.product_section{
+  width: 90%;
+}
+.product_list{
+  grid-template-columns: auto;
+}
+.product_group button{
+  width: 70px;
+  font-size: 30px;
+}
+.product_list .card {
+  width: 90%;
+}
+.container h3{
+  font-size: 2rem;
+}
+.container p {
+  font-size: 25px;
+}
+.web_buton{
+  font-size: 25px;
+  max-width: 100px;
+  width: auto;
+  padding: 10px;
+}
+.Mobile_buton{
+  font-size: 25px;
+  max-width: 160px;
+  padding: 10px;
+}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media screen and (min-width: 1200px) {
+}

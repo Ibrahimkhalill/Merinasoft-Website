@@ -1,0 +1,63 @@
+.sale_prediction_container {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0px;
+  row-gap: 20px;
+  background-color: #f0e1f1;
+}
+
+.header_sale_prediction {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.header_sale_prediction span {
+  color: blueviolet;
+}
+.video {
+  width: 635px;
+}
+.video_sale_prediction {
+  padding: 2px 2px 0px 2px;
+  background: linear-gradient(
+    to right,
+    #a04aac 20%,
+    #a035ce 40%,
+    #b741c2 60%,
+    #9715a3 80%
+  );
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  cursor: pointer;
+  transition: all;
+}
+
+.description_sale_prediction {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  width: 88%;
+  padding: 20px 10px;
+  font-size: 1.2rem;
+  background: rgb(245, 212, 245);
+  line-height: 40px;
+  color: rgb(27, 23, 23);
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 748px) {
+    .sale_prediction_container{
+        align-items: flex-start;
+    }
+  .video {
+    width: 100%;
+  }
+  .description_sale_prediction{
+    width: 95%;
+    padding: 10px;
+  }
+}

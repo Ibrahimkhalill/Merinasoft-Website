@@ -1,0 +1,20 @@
+.oursliderworks_root_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.description_works{        
+    width: 25vw;
+    height: 250px;
+    border: 1px solid black;
+    box-shadow: 6px 6px 6px #757373;
+    margin-bottom: 20px;
+    position: relative;
+    transform: translate(-50%, 0%);
+    left: 50%;
+    right: 50%;
+}
+
+

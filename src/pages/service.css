@@ -1,0 +1,243 @@
+.Service_container {
+  width: 100%;
+  margin-top: 4vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.service_section_image {
+  display: flex;
+  align-items: center;
+  height: 30vh;
+  margin-bottom: 50px;
+}
+.service_section_image img {
+  width: 100%;
+  height: 340px;
+}
+
+.service_section_title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.content_service {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+  margin-bottom: 10px;
+}
+.content_service h1 {
+  text-align: center;
+  background: linear-gradient(
+    to right,
+    #891299 20%,
+    #4e056d 40%,
+    #b741c2 60%,
+    #b40cc4 80%
+  );
+  background-size: 200% auto;
+  color: #333333;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+}
+.content_service p {
+  text-align: center;
+  margin-top: 1rem;
+  max-width: 70rem;
+  font-size: 1.4rem;
+  color: #333333;
+}
+.service_list_company {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 80%;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 90%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+}
+
+.container {
+  padding: 2px 16px;
+}
+.container p {
+  font-size: 1.1vw;
+}
+.container a {
+  text-decoration: none;
+}
+.contuct_us_last_part {
+  width: 90%;
+  background: linear-gradient(
+    to right,
+    #a04aac 20%,
+    #a035ce 40%,
+    #b741c2 60%,
+    #9715a3 80%
+  );
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  height: 40vh;
+  border-radius: 1vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  margin-top: 2vw;
+  margin-bottom: 3vw;
+}
+.content_contact {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+.content_contact p {
+  font-size: 1.4vw;
+  text-align: center;
+  letter-spacing: -0.05rem;
+}
+.contuct_us_last_part h1 {
+  color: white;
+  font-size: 2.25rem;
+  line-height: 1vw;
+}
+a {
+  text-decoration: none;
+}
+.contact_button {
+  color: #0b010c;
+  padding: 0.875rem 4rem;
+  background-color: #f8f8f8;
+  font-weight: 700;
+  display: inline-block;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+@media screen and (max-width: 575px) {
+  .Service_container {
+    width: 98%;
+    margin-top: 10vw;
+  }
+  .service_list_company {
+    grid-template-columns: auto;
+    width: 100%;
+  }
+  .container p {
+    font-size: 20px;
+  }
+  .content_service p {
+    text-align: left;
+
+    font-size: 1.25rem;
+  }
+  .content_service {
+    width: 90%;
+  }
+
+  .service_section_image img {
+    width: 103%;
+    height: 340px;
+  }
+  .card {
+    width: 85%;
+  }
+  .container a {
+    font-size: 20px;
+  }
+  .content_contact {
+    width: 90%;
+  }
+  .contuct_us_last_part h1 {
+    color: white;
+    font-size: 1.5rem;
+    line-height: 10vw;
+    height: 14vw;
+  }
+  .content_contact p {
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: -0.05rem;
+  }
+  .contuct_us_last_part {
+    height: auto;
+    padding: 1vw;
+    padding-bottom: 5vw;
+    width: 95%;
+    margin-left: 3vw;
+  }
+  .padding_card {
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+    margin-bottom: 15px !important;
+    padding-bottom: 20px !important;
+    padding-right: 20px !important;
+    padding-left: 10px !important;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .service_list_company {
+    grid-template-columns: auto;
+    width: 80%;
+  }
+  .container p {
+    font-size: 27px;
+  }
+  .content_service p {
+    text-align: left;
+
+    font-size: 2rem;
+  }
+  .container a {
+    font-size: 23px;
+    color: #891299;
+  }
+  .contuct_us_last_part {
+    height: auto;
+    padding: 1vw;
+    padding-bottom: 5vw;
+    width: 95%;
+  }
+  .content_contact p {
+    font-size: 23px;
+    text-align: center;
+    letter-spacing: -0.05rem;
+  }
+  .content_contact a {
+    font-size: 23px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media screen and (min-width: 1200px) {
+}
