@@ -1,0 +1,12 @@
+.oursliderclient_container{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.slider_image{
+    width: 18vw;
+    height: 12vh;
+    box-shadow: 6px 6px 6px #757373;   
+}
+

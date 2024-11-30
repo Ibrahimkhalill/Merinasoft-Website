@@ -1,0 +1,124 @@
+.sofwtare_development_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 100px;
+  row-gap: 23px;
+}
+.sofwtare_development_container .heading{
+    font-size: 2.25rem;
+    font-weight: 600;
+    letter-spacing: -0.05em;
+
+}
+.software_image{
+    width: 30%;
+}
+.comtent-section{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  column-gap: 20px;
+  margin-bottom: 20px;
+
+}
+.list_name{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.check_icon{
+  font-size: 25px;
+  font-weight: bold;
+}
+.list_name div{
+  font-size: 1.25rem;
+}
+.list_software{
+   display: flex;
+   flex-direction: column;
+   row-gap: 10px;
+}
+.choose_product h2{
+  font-size: 2.25rem;
+}
+.choose_product{
+  background-color: rgba(217, 229, 255, 0.29);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+.choose_product .header__des{
+  width: 70%;
+  font-size: 1.125rem;
+  padding-bottom: 2rem  ;
+  text-align: center;
+  max-width: 60rem;
+  letter-spacing: -0.05em;
+}
+.row_des{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  
+}
+.col_first div{
+  font-size: 1.125rem;
+ 
+}
+.col_second div{
+  font-size: 1.125rem;
+}
+
+@media (max-width: 480px) {
+  .sofwtare_development_container{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .sofwtare_development_container .heading {
+    font-size: 2rem;
+    
+}
+  .comtent-section{
+    flex-direction: column;
+
+    row-gap: 10px;
+  }
+  .software_image{
+    width: 99%;
+    
+  }
+  .choose_product{
+    text-align: left;
+  }
+  .choose_product h2 {
+    font-size: 1.7rem;
+}
+.choose_product .header__des{
+  width: 97%;
+  text-align: left;
+}
+.row_des{
+  flex-direction: column;
+  width: 100%;
+  text-align: left;
+}
+h3{
+font-size: 1.5rem;
+}
+.large_icon{
+  font-size: 30px;
+}
+.large_icons{
+  font-size: 36px;
+}
+.large_iconss{
+  font-size: 30px;
+
+}
+}
